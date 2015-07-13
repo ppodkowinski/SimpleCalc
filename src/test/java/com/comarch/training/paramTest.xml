@@ -1,0 +1,9 @@
+<suite name="ParameterExampleSuite" parallel="false">
+	<test name="ParameterTest">
+		<classes>
+			<parameter name="param1" value="2"></parameter>
+			<parameter name="param2" value="4"></parameter>
+			<class name="com.javacodegeeks.testng.ParameterExample" />
+		</classes>
+	</test>
+</suite>

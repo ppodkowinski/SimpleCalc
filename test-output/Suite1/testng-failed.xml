@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="fail(failed)">
+    <classes>
+      <class name="com.comarch.training.FailingCases">
+        <methods>
+          <include name="minusTest"/>
+          <include name="init"/>
+          <include name="AddingTest"/>
+          <include name="failingMinusTest"/>
+        </methods>
+      </class> <!-- com.comarch.training.FailingCases -->
+      <class name="com.comarch.training.PositiveCases">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.comarch.training.PositiveCases -->
+    </classes>
+  </test> <!-- fail(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

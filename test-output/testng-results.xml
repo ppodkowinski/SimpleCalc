@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="35" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110" started-at="2015-07-13T11:43:14Z" finished-at="2015-07-13T11:43:14Z">
+    <groups>
+      <group name="pass">
+        <method signature="PositiveCases.AddingTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="AddingTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.addToMemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="addToMemoryTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.divideTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="divideTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.getMemory()[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="getMemory" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.minusTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="minusTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.multiplyTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="multiplyTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.setmemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="setmemoryTest" class="com.comarch.training.PositiveCases"/>
+      </group> <!-- pass -->
+    </groups>
+    <test name="Default test" duration-ms="110" started-at="2015-07-13T11:43:14Z" finished-at="2015-07-13T11:43:14Z">
+      <class name="com.comarch.training.PositiveCases">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="init" is-config="true" duration-ms="10" started-at="2015-07-13T13:43:14Z" finished-at="2015-07-13T13:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="AddingTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="AddingTest" duration-ms="10" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingTest -->
+        <test-method status="PASS" signature="AddingTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="AddingTest" duration-ms="10" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingTest -->
+        <test-method status="PASS" signature="AddingTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="AddingTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingTest -->
+        <test-method status="PASS" signature="AddingTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="AddingTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingTest -->
+        <test-method status="PASS" signature="AddingTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="AddingTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingTest -->
+        <test-method status="PASS" signature="divideTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="divideTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="divideTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="divideTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="divideTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="divideTest" duration-ms="10" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="AddingTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="AddingTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingTest -->
+        <test-method status="PASS" signature="divideTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="divideTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="divideTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="divideTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="AddingTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="AddingTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingTest -->
+        <test-method status="PASS" signature="addToMemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="addToMemoryTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" finished-at="2015-07-13T13:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToMemoryTest -->
+        <test-method status="PASS" signature="divideTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="divideTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="AddingTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="AddingTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingTest -->
+        <test-method status="PASS" signature="divideTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="divideTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="getMemory()[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="getMemory" duration-ms="0" started-at="2015-07-13T13:43:14Z" finished-at="2015-07-13T13:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMemory -->
+        <test-method status="PASS" signature="minusTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="minusTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minusTest -->
+        <test-method status="PASS" signature="minusTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="minusTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minusTest -->
+        <test-method status="PASS" signature="minusTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="minusTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minusTest -->
+        <test-method status="PASS" signature="minusTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="minusTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minusTest -->
+        <test-method status="PASS" signature="minusTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="minusTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minusTest -->
+        <test-method status="PASS" signature="divideTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="divideTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="minusTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="minusTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minusTest -->
+        <test-method status="PASS" signature="minusTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="minusTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minusTest -->
+        <test-method status="PASS" signature="minusTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="minusTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minusTest -->
+        <test-method status="PASS" signature="multiplyTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="multiplyTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="multiplyTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="multiplyTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="multiplyTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="multiplyTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="multiplyTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="multiplyTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="multiplyTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="multiplyTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="multiplyTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="multiplyTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="multiplyTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="multiplyTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="setmemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="setmemoryTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" finished-at="2015-07-13T13:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setmemoryTest -->
+        <test-method status="PASS" signature="multiplyTest(int, int)[pri:0, instance:com.comarch.training.PositiveCases@6fffcba5]" name="multiplyTest" duration-ms="0" started-at="2015-07-13T13:43:14Z" data-provider="test1" finished-at="2015-07-13T13:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+      </class> <!-- com.comarch.training.PositiveCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
